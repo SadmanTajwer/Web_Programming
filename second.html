@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Webpage</title>
+    <style>
+        /* Global Styling */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header Section */
+        header {
+            position: relative;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            background-image: url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav a {
+            padding: 10px 15px;
+            color: #fff;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        /* About Section */
+        #about {
+            display: flex;
+            align-items: center;
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        #about img {
+            width: 40%;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        #about .about-text {
+            flex: 1;
+        }
+
+        #about h2 {
+            font-size: 2.5em;
+            margin-top: 0;
+        }
+
+        /* Services Section */
+        #services {
+            background-color: #e9ecef;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #services h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .service-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .service-card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+
+        .service-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Professional Website</h1>
+        <p>Crafting Quality Digital Solutions with Passion</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <img src="https://plus.unsplash.com/premium_photo-1661764256397-af154e87b1b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="About us">
+        <div class="about-text">
+            <h2>About Us</h2>
+            <p>We are a team of dedicated professionals providing top-notch digital solutions for clients worldwide.
+                Our expertise ranges from web development to digital marketing, ensuring a comprehensive approach to
+                all your business needs.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>Creating responsive, visually appealing websites tailored to your brand and audience.</p>
+            </div>
+            <div class="service-card">
+                <h3>Digital Marketing</h3>
+                <p>Helping you reach your audience effectively with strategic digital marketing solutions.</p>
+            </div>
+            <div class="service-card">
+                <h3>SEO Optimization</h3>
+                <p>Boosting your website’s visibility on search engines to drive organic traffic.</p>
+            </div>
+            <div class="service-card">
+                <h3>Content Creation</h3>
+                <p>Delivering high-quality content that engages, educates, and inspires your audience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Professional Website. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
